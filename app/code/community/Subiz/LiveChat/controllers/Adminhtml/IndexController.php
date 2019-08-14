@@ -15,7 +15,7 @@
 class Subiz_LiveChat_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Action
 {
   // Display subiz dashboard on iframe into magento admin area.
-  public function indexAction()
+  public function embedAction()
   {
     $this->loadLayout()
       ->_title($this->__('Subiz Dashboard'));

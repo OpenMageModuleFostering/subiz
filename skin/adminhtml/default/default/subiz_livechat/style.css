@@ -1,10 +1,10 @@
-.subiz-livechat-index-index #anchor-content,
-.subiz-livechat-index-index #anchor-content > div {
+.subiz-livechat-index-embed #anchor-content,
+.subiz-livechat-index-embed #anchor-content > div {
   position: relative;
   min-height: 600px;
 }
 
-.subiz-livechat-index-index iframe#subiz_dashboard {
+.subiz-livechat-index-embed iframe#subiz_dashboard {
   position: relative;
   border: none;
   width: 100%;
