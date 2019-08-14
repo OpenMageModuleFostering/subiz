@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Subiz Live Chat Extension
+ *
+ * @category Subiz
+ * @package Subiz_LiveChat
+ * @copyright Copyright (c) 2015 Subiz, Inc. (http://www.subiz.com)
+ * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @version 1.0.0 
+ */
+-->
+
+<config>
+  <tabs>
+    <subiz_livechat_config_tab module="subiz_livechat" translate="title">
+      <label><![CDATA[<img alt="Subiz" title="Subiz" style="display:inline-block;width:55px" src="data:image/png;base64,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">Live Chat]]></label>
+      <sort_order>100</sort_order>
+    </subiz_livechat_config_tab>
+  </tabs>
+
+  <sections>
+    <subiz_livechat module="subiz_livechat" translate="label">
+      <label>Subiz Widget Settings</label>
+      <tab>subiz_livechat_config_tab</tab>
+      <sort_order>1</sort_order>
+      <show_in_default>1</show_in_default>
+      <show_in_website>1</show_in_website>
+      <show_in_store>1</show_in_store>
+
+      <groups>
+        <account translate="label comment">
+          <label>Account configuration</label>
+            <frontend_type>text</frontend_type>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <fields>
+              <license_id translate="label comment">
+                <label>License ID</label>
+                <frontend_type>text</frontend_type>
+                <sort_order>1</sort_order>
+                <comment>Get License ID at [Subiz Dashboard > Settings > Installations]</comment>
+                <show_in_default>1</show_in_default>
+                <show_in_website>1</show_in_website>
+                <show_in_store>1</show_in_store>
+              </license_id>
+            </fields>               
+          </account>
+
+          <widget translate="label">
+            <label>Widget configuration</label>
+            <frontend_type>text</frontend_type>
+            <sort_order>2</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <fields>
+              <enable translate="label comment">
+                <label>Enabled</label>
+                <frontend_type>select</frontend_type>
+                <sort_order>1</sort_order>
+                <comment>Enable\Disable widget on front page</comment>
+                <show_in_default>1</show_in_default>
+                <show_in_website>1</show_in_website>
+                <show_in_store>1</show_in_store>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+              </enable>
+
+              <script translate="label comment">
+                <label><![CDATA[Widget code<br>*<i>if you set License ID, you don't need setting here.</i>]]></label>
+                <frontend_type>textarea</frontend_type>
+                <sort_order>2</sort_order>
+                <comment>Copy widget code from [Subiz Dashboard > Settings > Installations]</comment>
+                <show_in_default>1</show_in_default>
+                <show_in_website>1</show_in_website>
+                <show_in_store>1</show_in_store>
+              </script>
+            </fields>
+          </widget>
+      </groups>
+    </subiz_livechat>
+  </sections>
+</config>

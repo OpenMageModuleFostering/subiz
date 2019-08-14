@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Subiz Live Chat Extension
+ *
+ * @category Subiz
+ * @package Subiz_LiveChat
+ * @copyright Copyright (c) 2015 Subiz, Inc. (http://www.subiz.com)
+ * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @version 1.0.0 
+ */
+-->
+
+<config>
+  <menu>
+    <subiz_livechat_menu module="subiz_livechat" translate="title">
+      <title>Subiz Live Chat</title>
+      <sort_order>100</sort_order>
+      <children>
+        <configuration module="subiz_livechat" translate="title">
+          <title>Configuration</title>
+          <sort_order>1</sort_order>
+          <action>adminhtml/system_config/edit/section/subiz_livechat</action>
+        </configuration>
+        <dashboard module="subiz_livechat" translate="title">
+          <title>Dashboard</title>
+          <sort_order>2</sort_order>
+          <action>subiz/index/index</action>
+        </dashboard>
+      </children>
+    </subiz_livechat_menu>
+  </menu>
+
+  <acl>
+    <resources>
+      <admin>
+        <children>
+          <system>
+            <children>
+              <config>
+                <children>
+                  <subiz_livechat translate="title" moduel="subiz_livechat">
+                    <title>Subiz Live Chat</title>
+                  </subiz_livechat>
+                </children>
+              </config>
+            </children>
+          </system>
+
+          <subiz_livechat_menu module="subiz_livechat" translate="title">
+            <title>Subiz Live Chat</title>
+            <children>
+              <configuration translate="title">
+                <title>Configuration</title>
+                <sort_order>1</sort_order>
+              </configuration>
+              <dashboard translate="title">
+                <title>Dashboard</title>
+                <sort_order>2</sort_order>
+              </dashboard>
+            </children>
+          </subiz_livechat_menu>
+        </children>
+      </admin>
+    </resources>
+  </acl>
+</config>

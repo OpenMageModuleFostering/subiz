@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Subiz Live Chat Extension
+ *
+ * @category Subiz
+ * @package Subiz_LiveChat
+ * @copyright Copyright (c) 2015 Subiz, Inc. (http://www.subiz.com)
+ * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @version 1.0.0 
+ */
+-->
+
+<config>
+  <modules>
+    <Subiz_LiveChat>
+      <version>1.0.0</version>
+    </Subiz_LiveChat>
+  </modules>
+
+  <global>
+    <blocks>
+      <subiz_livechat>
+        <class>Subiz_LiveChat_Block</class>
+      </subiz_livechat>
+    </blocks>
+    <helpers>
+      <subiz_livechat>
+        <class>Subiz_LiveChat_Helper</class>
+      </subiz_livechat>
+    </helpers>
+    <models>
+      <subiz_livechat>
+        <class>Subiz_LiveChat_Model</class>
+      </subiz_livechat>
+    </models>
+    <events>
+      <admin_system_config_changed_section_subiz_livechat>
+        <observers>
+          <subiz_livechat>
+            <type>singleton</type>
+            <class>Subiz_LiveChat_Model_Observer</class>
+            <method>clearCacheAfterChangeConfig</method>
+          </subiz_livechat>
+        </observers>
+      </admin_system_config_changed_section_subiz_livechat>
+    </events>
+  </global>
+
+  <frontend>
+    <layout>
+      <updates>
+        <subiz_livechat>
+          <file>subiz_livechat.xml</file>
+        </subiz_livechat>
+      </updates>
+    </layout>
+  </frontend>
+
+  <admin>
+    <routers>
+      <subiz_livechat>
+        <use>admin</use>
+        <args>
+          <module>Subiz_LiveChat_Adminhtml</module>
+          <frontName>subiz</frontName>
+        </args>
+      </subiz_livechat>
+    </routers>
+  </admin>
+
+</config>

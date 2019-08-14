@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/subiz",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Enhance customer interaction for your Magento shop with Subiz live chat",
+    "authors": [
+    {
+        "name": "Binh Duong",
+        "email": "binhduong@subiz.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
