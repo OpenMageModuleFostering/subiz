@@ -8,13 +8,12 @@
  * @package Subiz_LiveChat
  * @copyright Copyright (c) 2015 Subiz, Inc. (http://www.subiz.com)
  * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
- * @version 1.0.0 
  */
 -->
 
 <layout>
   <default>
-    <reference name="footer">
+    <reference name="before_body_end">
       <block type="subiz_livechat/script" name="subiz_livechat_script" template="subiz_livechat/script.phtml" after="-" />
     </reference>
   </default>

@@ -1,26 +1,34 @@
 <?xml version="1.0"?>
 <package>
     <name>subiz</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
     <channel>community</channel>
     <extends/>
     <summary>Enhance customer interaction for your Magento shop with Subiz live chat</summary>
-    <description>Subiz offer the fastest way to reach out to potential website visitor, respond directly, impress them by personal touch and fulfil every single enquiry in real-time. These entire customer interactions occur on a web-based live chat widget docked at the bottom of your Magento store.&#xD;
-Key feature&#xD;
-- Dashboard: Manage visitor information and proactive engages with them using a personalized greeting&#xD;
-- Widget: Fully customizable live chat widget to fit with your store: size, color, theme, avatar, font,...&#xD;
-- IM chat app: Support for visitors anytime anywhere from any device using IM chat app such as Pidgin, Adium, Trillian&#xD;
-- Trigger: Use predetermined rule of trigger to invite visitors a chat automatically&#xD;
-- Safety of data: Store data in a secure servers for easy achievement&#xD;
-- Report: Advanced analytic and report on operator activity with integrated Google Analytics&#xD;
-- Canned response: Use canned responses and shortcut answer for fast and effective chat&#xD;
-&#xD;
-For more details regarding feature and price, please visit here http://subiz.com/pricing.html&#xD;
-&#xD;
-Support&#xD;
-If you meet any difficulties installing or utilising Subiz, please drop us an email at support@subiz.com or chat with us at http://subiz.com/</description>
+    <description>&lt;h1&gt;Enhance customer interaction for your Magento shop with Subiz live chat&lt;/h1&gt;&#xD;
+&lt;p&gt;&lt;a href="http://subiz.com?utm_source=Magento&amp;amp;utm_medium=plugin&amp;amp;utm_campaign=Magento_extension"&gt;Subiz&lt;/a&gt; offers the fastest way to reach out to potential website visitor, respond directly and fulfil every single enquiry in real-time.&#xD;
+&lt;br/&gt;These entire customer interactions occur on a web-based live chat widget docked at the bottom of your Magento store.&lt;/p&gt;&#xD;
+&lt;h2&gt;Get started:&lt;/h2&gt;&#xD;
+&lt;p&gt;&lt;i&gt;Step 1:&lt;/i&gt; After install Subiz extension, choose menu Subiz live chat on Magento Admin Panel &amp;gt;&amp;gt; Dashboard&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;i&gt;Step 2:&lt;/i&gt; Register Subiz account and Login Subiz Dashboard &amp;gt;&amp;gt; Settings &amp;gt;&amp;gt; Installations &amp;gt;&amp;gt; Get License ID or Copy embed code&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;i&gt;Step 3:&lt;/i&gt; On Magento Admin Panel, choose menu Subiz live chat &amp;gt;&amp;gt; Configuration &amp;gt;&amp;gt; Enter License ID or embed code in the appropriate fields &amp;gt;&amp;gt; Choose Yes in Enabled &amp;gt;&amp;gt; Save Config &lt;/p&gt;&#xD;
+&lt;p&gt;&lt;i&gt;Step 4:&lt;/i&gt; Return to Dashboard and start chatting with your visitors.&lt;/p&gt;&#xD;
+&lt;h2&gt;Key features:&lt;/h2&gt;&#xD;
+&lt;p&gt;Implementing Subiz into your Magento website, it will create an excellence customer service channel to make your shop outstanding among competitors.&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;IM chat app:&lt;/strong&gt; Support for visitors on the go via IM client&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Dashboard:&lt;/strong&gt; Access to Subiz Dashboard integrated on your Admin Panel to know exactly who enters your site, understand what they are looking for and proactively monitor them with personal touch&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Widget:&lt;/strong&gt; Customize the widget to fit with your website: size, color, theme, avatar, font,...&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Trigger:&lt;/strong&gt; Proactively invite visitors for a chat based on predetermined rule of trigger&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Safety of data:&lt;/strong&gt; Store data in a secure servers for easy achievement&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Report:&lt;/strong&gt; Advanced analytic and report on operator activity with integrated Google Analytics&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Canned response:&lt;/strong&gt; Use canned responses and shortcut answer for fast and effective chat&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&lt;i&gt;For more details regarding feature and price, &lt;a href="http://subiz.com/pricing.html?utm_source=Magento&amp;amp;utm_medium=plugin&amp;amp;utm_campaign=Magento_extension"&gt;please visit here&lt;/a&gt;&lt;/i&gt;&lt;/p&gt;&#xD;
+&lt;h2&gt;Support&lt;/h2&gt;&#xD;
+&lt;p&gt;If you meet any difficulties installing or utilising Subiz, please drop us an email at &lt;a href="mailto:support@subiz.com"&gt;support@subiz.com&lt;/a&gt; or &lt;a href="http://subiz.com?utm_source=Magento&amp;amp;utm_medium=plugin&amp;amp;utm_campaign=Magento_extension"&gt;chat with us&lt;/a&gt;&lt;/p&gt;</description>
     <notes>First release of Subiz live chat extension for Magento&#xD;
 Why Subiz:&#xD;
 Understand your customers&#xD;
@@ -29,9 +37,9 @@ Attractive customizable widget&#xD;
 Support visitor on the go with IM app&#xD;
 </notes>
     <authors><author><name>Binh Duong</name><user>subiz</user><email>binhduong@subiz.com</email></author></authors>
-    <date>2015-07-22</date>
-    <time>05:05:59</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Subiz_LiveChat.xml" hash="eca44308b98229bdaaaea90d82882498"/></dir></target><target name="magecommunity"><dir name="Subiz"><dir name="LiveChat"><dir name="Block"><file name="Script.php" hash="9f264365976b393d1eecb0e831871afe"/></dir><dir name="Helper"><file name="Data.php" hash="4d48cfd12f3986363d839082fdff92e4"/></dir><dir name="Model"><file name="Observer.php" hash="70a5d932c9ba918c72096d20ce1710f0"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="e266fcc88cfa4bf1337f314d56368ef9"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="d8f0dae5e9b4b0eb4eaec994168711b1"/><file name="config.xml" hash="faf55eb398a359490c630ced59d06e37"/><file name="system.xml" hash="82db45103b727d6c4c577c449a2e4faa"/></dir></dir><file name=".DS_Store" hash="f5fbceb88efd37c6c4cf1430e6a5e11c"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="subiz_livechat"><file name="iframe_dashboard.phtml" hash="3021700caee382e19b4edb86dcc93e29"/><file name=".DS_Store" hash="bc505fc4ab7ed89374da4c4c7255631b"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="subiz_livechat.xml" hash="da8c8092587aeca02fc81a6df3e5d3d7"/></dir><dir name="template"><dir name="subiz_livechat"><file name="script.phtml" hash="56ac8f7748d9e6cdab99a49a3715d4fd"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="subiz_livechat"><file name="style.css" hash="35094be4eac21ac609b05f53a1930515"/></dir></dir></dir></dir></target></contents>
+    <date>2015-08-13</date>
+    <time>08:25:50</time>
+    <contents><target name="magecommunity"><dir name="Subiz"><dir name="LiveChat"><dir name="Block"><file name="Script.php" hash="0630616d05a11d7c8e683075bf27125c"/></dir><dir name="Helper"><file name="Data.php" hash="3719fabab5a07f4b2117359326af8f83"/></dir><dir name="Model"><file name="Observer.php" hash="36f6aff34de2c87b5039bdd6fa03eec2"/><dir name="Resource"><file name="Setup.php" hash="c1ca1738b605e820b4048b55b36f1d97"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="1b1b14788fc0fce0dd28c7860d0c3afe"/><dir name="System"><file name="ConfigController.php" hash="4df126780de8380db15f1c03e01567fb"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="9a280c2e651eb9b3b88c921e0a877700"/><file name="config.xml" hash="54aff6f08c29f0c1b9127ce2cd4a4709"/><file name="system.xml" hash="4e7b9e0c82c303cbe62a012489d2799d"/></dir><dir name="sql"><dir name="subiz_setup"><file name="mysql4-install-1.0.0.php" hash="3c3069d079750e880c972d984e695e06"/><file name="upgrade-1.0.0-1.0.1.php" hash="1342d06949cb35861b87c757fad930fc"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="subiz_livechat"><file name="iframe_dashboard.phtml" hash="3021700caee382e19b4edb86dcc93e29"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="subiz_livechat.xml" hash="4a9ed8ce940c5a1d3575e95a662d9707"/></dir><dir name="template"><dir name="subiz_livechat"><file name="script.phtml" hash="35769b3f322da805e0a80d6d2c868018"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="subiz_livechat"><file name="style.css" hash="35094be4eac21ac609b05f53a1930515"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Subiz_LiveChat.xml" hash="510f0594b0af6811a84ca1664ad0c580"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>5.6.11</max></php></required></dependencies>
 </package>

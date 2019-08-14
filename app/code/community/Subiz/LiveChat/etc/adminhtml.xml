@@ -8,7 +8,6 @@
  * @package Subiz_LiveChat
  * @copyright Copyright (c) 2015 Subiz, Inc. (http://www.subiz.com)
  * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
- * @version 1.0.0 
  */
 -->
 
@@ -34,13 +33,17 @@
 
   <acl>
     <resources>
+      <all>
+        <title>Allow Everything</title>
+      </all>
       <admin>
         <children>
+
           <system>
             <children>
               <config>
                 <children>
-                  <subiz_livechat translate="title" moduel="subiz_livechat">
+                  <subiz_livechat moduel="subiz_livechat" translate="title">
                     <title>Subiz Live Chat</title>
                   </subiz_livechat>
                 </children>
@@ -61,6 +64,7 @@
               </dashboard>
             </children>
           </subiz_livechat_menu>
+
         </children>
       </admin>
     </resources>

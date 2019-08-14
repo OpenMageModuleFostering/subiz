@@ -8,7 +8,6 @@
  * @package Subiz_LiveChat
  * @copyright Copyright (c) 2015 Subiz, Inc. (http://www.subiz.com)
  * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
- * @version 1.0.0 
  */
 -->
 
@@ -22,66 +21,55 @@
 
   <sections>
     <subiz_livechat module="subiz_livechat" translate="label">
-      <label>Subiz Widget Settings</label>
+      <label>Subiz Settings</label>
       <tab>subiz_livechat_config_tab</tab>
-      <sort_order>1</sort_order>
+      <sort_order>100</sort_order>
       <show_in_default>1</show_in_default>
       <show_in_website>1</show_in_website>
       <show_in_store>1</show_in_store>
 
       <groups>
-        <account translate="label comment">
-          <label>Account configuration</label>
-            <frontend_type>text</frontend_type>
-            <sort_order>1</sort_order>
-            <show_in_default>1</show_in_default>
-            <show_in_website>1</show_in_website>
-            <show_in_store>1</show_in_store>
+        <config translate="label comment">
+          <label>Configuration</label>
+          <frontend_type>text</frontend_type>
+          <sort_order>1</sort_order>
+          <show_in_default>1</show_in_default>
+          <show_in_website>1</show_in_website>
+          <show_in_store>1</show_in_store>
 
-            <fields>
-              <license_id translate="label comment">
-                <label>License ID</label>
-                <frontend_type>text</frontend_type>
-                <sort_order>1</sort_order>
-                <comment>Get License ID at [Subiz Dashboard > Settings > Installations]</comment>
-                <show_in_default>1</show_in_default>
-                <show_in_website>1</show_in_website>
-                <show_in_store>1</show_in_store>
-              </license_id>
-            </fields>               
-          </account>
+          <fields>
+            <license_id translate="label comment">
+              <label>License ID</label>
+              <frontend_type>text</frontend_type>
+              <sort_order>1</sort_order>
+              <comment><![CDATA[<a href="http://subiz.com/landingpage/faqs-en/faqs.html?faq=44" target="_blank">How to get license ID</a>]]></comment>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </license_id>
 
-          <widget translate="label">
-            <label>Widget configuration</label>
-            <frontend_type>text</frontend_type>
-            <sort_order>2</sort_order>
-            <show_in_default>1</show_in_default>
-            <show_in_website>1</show_in_website>
-            <show_in_store>1</show_in_store>
+            <script translate="label comment">
+              <label><![CDATA[Widget code<br>*<i>Fill this place if you don't have license ID.</i>]]></label>
+              <frontend_type>textarea</frontend_type>
+              <sort_order>2</sort_order>
+              <comment><![CDATA[<a href="http://subiz.com/landingpage/faqs-en/faqs.html?faq=43" target="_blank">How to get embed code</a>]]></comment>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </script>
 
-            <fields>
-              <enable translate="label comment">
-                <label>Enabled</label>
-                <frontend_type>select</frontend_type>
-                <sort_order>1</sort_order>
-                <comment>Enable\Disable widget on front page</comment>
-                <show_in_default>1</show_in_default>
-                <show_in_website>1</show_in_website>
-                <show_in_store>1</show_in_store>
-                <source_model>adminhtml/system_config_source_yesno</source_model>
-              </enable>
-
-              <script translate="label comment">
-                <label><![CDATA[Widget code<br>*<i>if you set License ID, you don't need setting here.</i>]]></label>
-                <frontend_type>textarea</frontend_type>
-                <sort_order>2</sort_order>
-                <comment>Copy widget code from [Subiz Dashboard > Settings > Installations]</comment>
-                <show_in_default>1</show_in_default>
-                <show_in_website>1</show_in_website>
-                <show_in_store>1</show_in_store>
-              </script>
-            </fields>
-          </widget>
+            <enabled translate="label comment">
+              <label>Enabled</label>
+              <frontend_type>select</frontend_type>
+              <sort_order>3</sort_order>
+              <comment>Enable\Disable widget on front page</comment>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+              <source_model>adminhtml/system_config_source_yesno</source_model>
+            </enabled>
+          </fields>
+        </config>
       </groups>
     </subiz_livechat>
   </sections>

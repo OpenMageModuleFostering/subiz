@@ -7,7 +7,6 @@
  * @package Subiz_LiveChat
  * @copyright Copyright (c) 2015 Subiz, Inc. (http://www.subiz.com)
  * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
- * @version 1.0.0 
  */
 
 /**
@@ -16,19 +15,19 @@
 class Subiz_LiveChat_Helper_data extends Mage_Core_Helper_Abstract
 {
 
-  public function getEnableWidget()
+  public function getWidgetStatus()
   {
-    return Mage::getStoreConfig('subiz_livechat/widget/enable');
+    return Mage::getStoreConfig('subiz_livechat/config/enabled');
   }
 
   public function getLicenseId()
   {
-    return Mage::getStoreConfig('subiz_livechat/account/license_id');
+    return Mage::getStoreConfig('subiz_livechat/config/license_id');
   }
 
   public function getWidgetScriptFromConfig()
   {
-    return Mage::getStoreConfig('subiz_livechat/widget/script');
+    return Mage::getStoreConfig('subiz_livechat/config/script');
   }
 
   public function getWidgetScriptGenerateByLicenseId($licenseId)
